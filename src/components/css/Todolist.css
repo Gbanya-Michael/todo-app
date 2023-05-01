@@ -1,0 +1,30 @@
+.Todolist {
+  margin-top: 30px;
+}
+.Todolist__row {
+  display: flex;
+  margin: 20px;
+}
+.Todolist__row:last-child {
+  margin-bottom: 0;
+}
+.Todolist__item {
+  background-color: #f3f1f5;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  flex-grow: 1;
+}
+.Todolist__delete {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  display: none;
+}
+.Todolist__row:hover .Todolist__delete {
+  display: block;
+}/*# sourceMappingURL=Todolist.css.map */
