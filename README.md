@@ -3,5 +3,5 @@
 # Installation
 # On your terminal
  "git clone"
-"yarn add"
+"yarn install"
 "yarn dev" to start server.
